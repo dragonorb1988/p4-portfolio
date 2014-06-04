@@ -1,0 +1,113 @@
+/* Your Website Styles */
+.showgrid {
+  background: url("../img/grid-bg.png") repeat-y;
+}
+
+#header{
+  background-color: #fec04c;
+  padding-top: 10px;
+}
+
+#jobtitle{
+  color:gray;
+  font-family: 'Lobster', cursive;
+  font-size: 16px;
+}
+
+
+#home:hover{
+  background: url(../img/home.png);
+  background-repeat: no-repeat;
+  background-attachment: 
+}
+#resume:hover{
+  background: url(../img/resume.png);
+  background-repeat: no-repeat;
+}
+#portfolio:hover{
+  background: url(../img/portfolio.png);
+  background-repeat: no-repeat;
+}
+
+#header a{
+  color: gray;
+}
+#header a:link {
+  text-decoration:none;
+  font-family: 'Arvo', serif;
+  font-size: 30px;
+  margin-left: 30px;
+  padding-left: 50px;
+}
+#header a:hover{
+  color: #e3e15b;
+}
+#header a:active  {
+  color: gray;
+}
+
+header h1{
+  font-family: 'Arvo', serif;
+  text-transform: capitalize;
+  font-size: 40px;
+  margin-bottom: -10px;
+}
+img{
+  background-color: #f8f5ef;
+
+}
+
+
+/* Gallery Stying */
+.gallery .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  position: relative;
+}
+.gallery .item {
+  overflow: hidden;
+  text-align: center;
+  background: #808080;
+}
+.gallery .controls {
+  position: absolute;
+  bottom: -150px;
+  width: 100%;
+  text-align: center;
+}
+
+.gallery .controls img {
+  border: 5px solid #000;
+}
+
+.gallery .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
+
+.thumb{
+  width: 160px;
+  height: 90px;
+}
